@@ -1,0 +1,15 @@
+[package]
+name = "kf"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+clap = "3.0.0-beta.5"
+dashmap = "4"
+futures = "0.3"
+jq-rs = { version = "0.4", features = ["bundled"] }
+rdkafka = "0.27.0"
+termion = "1.5.6"
+tokio = { version = "1.14", features = ["macros", "rt-multi-thread", "sync"] }
+tui = "0"
